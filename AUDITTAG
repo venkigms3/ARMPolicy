@@ -39,7 +39,7 @@
             "name": "byTemplate-location-lock",
             "apiVersion": "2018-05-01",
             "dependsOn": [
-                "[resourceId('Microsoft.Authorization/policyDefinitions/', 'tags1')]"
+                "[concat('Microsoft.Authorization/policyDefinitions/', 'tags1')]"
             ],
             "properties": {
                 "scope": "02f37ec2-835b-4a67-87b2-11b38a9f2910",
